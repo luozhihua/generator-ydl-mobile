@@ -20,6 +20,12 @@ module.exports = {
       "message": "项目描述",
       "default": "Joyshark 移动端项目."
     },
+    "port": {
+      "type": "number",
+      "required": true,
+      "message": "请设置本地开发服务器端口，用于执行 npm run dev 命令后在浏览器访问的端口",
+      "default": 8200
+    },
     "author": {
       "type": "string",
       "message": "Author",

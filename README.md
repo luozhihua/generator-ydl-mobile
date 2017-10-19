@@ -4,7 +4,7 @@
 
 ## 使用
 
-这是一个基于 [vue-cli](https://github.com/vuejs/vue-cli)的生成器样板。**需要安装 NodeJS v6.0以上本版本。**
+这是一个基于 [vue-cli](https://github.com/vuejs/vue-cli)的生成器样板。**依赖 NodeJS v6.0 以上版本。**
 
 ``` bash
 $ npm install -g vue-cli
