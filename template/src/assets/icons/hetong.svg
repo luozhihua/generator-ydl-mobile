@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>36</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-7" transform="translate(-317.000000, -1065.000000)" stroke="#747474" stroke-width="2">
+            <g id="Group-11" transform="translate(317.875000, 1066.250000)">
+                <path d="M19.015042,0.4296875 L4.39317333,0.4296875 C2.37431456,0.4296875 0.737706163,2.0662959 0.737706163,4.08515467 L0.737706163,33.328892 C0.737706163,35.3477508 2.37431456,36.9843592 4.39317333,36.9843592 L26.3259764,36.9843592 C28.3448351,36.9843592 29.9814435,35.3477508 29.9814435,33.328892 L29.9814435,11.396089 L19.015042,0.4296875 Z" id="Shape"></path>
+                <polyline id="Shape" points="19.015042 0.4296875 19.015042 11.396089 29.9814435 11.396089"></polyline>
+                <path d="M22.6705092,20.5347569 L8.04864051,20.5347569" id="Shape"></path>
+                <path d="M22.6705092,27.8456913 L8.04864051,27.8456913" id="Shape"></path>
+                <polyline id="Shape" points="11.7041077 13.2238226 9.87637409 13.2238226 8.04864051 13.2238226"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,278 @@
+@import "vars";
+@import "~muse-ui/less/vars.less";
+
+/* 修改基础变量 */
+@fontFamily: "PingFangSC", "-apple-system", "BlinkMacSystemFont", "PingFang SC", "Helvetica Neue";
+@primaryColor: @color-primary;
+@textColor: #747474;
+@accentColor: @color-primary;
+@disabledColor: #747474;
+@import "~muse-ui/less/theme-vars.less"; /* 默认组件变量 */
+@import "~muse-ui/less/theme.less"; /*// 主题相关的样式*/
+
+// 按钮
+.mu-raised-button,
+.mu-flat-button {
+  border-radius: .2rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  min-width: 8.8rem;
+}
+
+// 按钮文字
+.mu-flat-button-label,
+.mu-raised-button-label {
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+// 输入框
+.mu-text-field-content {
+  padding-bottom: 1.2rem;
+}
+
+.mu-text-field-input {
+  height: 3.2rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.requiredClass {
+  font-size: 2.4rem;
+}
+
+.mu-text-field.has-label .mu-text-field-content {
+  padding-top: 2.2rem;
+}
+
+.mu-text-field {
+  margin-bottom: 0;
+  color: #d5d5d5;
+}
+
+.mu-text-field.has-label {
+  min-height: 6rem;
+}
+
+.mu-text-field-line.disabled {
+  border-bottom: .1rem solid #ebebeb;
+}
+
+.mu-dropDown .panel-title-select .mu-dropDown-menu {
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 1.4rem;
+  color: white;
+  margin: auto;
+  height: 100%;
+}
+
+.mu-dropDown .mu-text-field-content {
+  padding-bottom: 0;
+}
+
+.mu-menu-destop .mu-menu-item {
+  padding: 0 1.4rem;
+}
+
+/*//组件的 下拉框 标题的字体*/
+.mu-dropDown .mu-select-field .mu-dropDown-menu-text {
+  font-weight: 500;
+  overflow: visible;
+  color: white;
+  .mu-dropDown-menu-text-overflow {
+    overflow: visible;
+    height: 100%;
+    padding-left: 1.5rem;
+  }
+}
+
+.mu-dropDown .mu-dropDown-menu-icon {
+  color: white;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.mu-dropDown .mu-select-field .mu-dropDown-menu-text {
+  line-height: 3rem;
+}
+
+/*//下拉框的 三角位置*/
+.mu-select-field .mu-dropDown-menu-icon {
+  top: .3rem;
+}
+
+// 下拉框显示的 字体
+// .mu-dropDown-menu-text-overflow{
+//   color:#747474;
+//   font-size: 2.4rem;
+// }
+
+.mu-text-field.disabled .mu-text-field-content {
+  font-family: PingFangSC-Regular;
+  font-size: 1.4rem;
+  color: #747474;
+
+}
+
+.mu-text-field .mu-text-field-content {
+  padding-top: 0;
+  // padding-left:1.6rem;
+}
+
+.mu-text-field.disabled .mu-text-field-content .mu-text-field-input {
+  font-family: Roboto;
+  font-size: 1.6rem;
+  opacity: .9;
+  color: black;
+}
+
+.mu-switch {
+
+  .mu-switch-container {
+    padding: 1px;
+
+    .mu-switch-track {
+      height: 22px;
+    }
+
+    .mu-switch-thumb {
+      top: 2px;
+      left: 2px;
+    }
+  }
+
+  input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track {
+    background-color: @color-primary;
+  }
+
+  input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-thumb {
+    left: -2px;
+    background-color: #fff;
+  }
+}
+
+/*// 自定义弹窗口样式*/
+.dialogBbox_input_box {
+  overflow: visible !important;
+  position: relative;
+  .mu-dialog-title {
+    position: relative;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+}
+
+.dialogBbox, .dialogBbox.dialogBbox_input_box, .dialogBbox.dialogBbox_input_box1 {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  .mu-dialog-title {
+    padding: 1rem 2rem;
+    background: #3b7cec;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: inherit;
+    border: none
+  }
+  .dialogBbox_input_box {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8 !important;
+    position: absolute;
+    z-index: 10;
+
+    .dialogBbox_input {
+      height: 4rem;
+      padding: 0 1rem;
+
+      z-index: 99;
+      width: 100%;
+      color: #666;
+      border: none;
+      display: block !important;
+
+    }
+    .dialogBbox_input::-input-placeholder {
+      color: #999;
+    }
+
+  }
+  .dialogBbox_input_body {
+    position: relative;
+    min-height: 10rem !important;
+    margin-top: 4rem;
+    max-height: 30vh;
+    overflow: scroll;
+  }
+  .dialogBbox_input_body1 {
+    max-height: 30vw;
+    overflow: scroll;
+  }
+  .mu-menu-list, .mu-dialog-body {
+    padding: 0;
+  }
+
+  .mu-dialog-body {
+    .mu-item-title {
+      word-break: break-all
+    }
+  }
+
+  .mu-item-wrapper {
+    padding: 0.3rem 1rem;
+    line-height: inherit;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  .mu-flat-button:nth-child(1) {
+    flex: 2;
+    color: #fff;
+    background: #cac9c9;
+    margin-right: 0.5rem;
+  }
+  .mu-flat-button:nth-child(2) {
+    color: #fff;
+    background: #3b7cec;
+    flex: 3;
+
+  }
+  /* 多选框位置! */
+  .mu-checkbox {
+    width: 100%
+  }
+  .select-more-checkbox {
+    width: 6rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    .mu-checkbox-label, .mu-checkbox-icon-uncheck, .mu-checkbox-icon-checked {
+      color: #fff;
+    }
+  }
+}
+
+/* 多选框位置! */
+.mu-checkbox {
+  width: 100%
+}
+
+.select-more-checkbox {
+  width: 6rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  .mu-checkbox-label, .mu-checkbox-icon-uncheck, .mu-checkbox-icon-checked {
+    color: #fff;
+  }
+}
+
+// 取消 确认按钮的样式
+.mu-raised-button {
+  border-radius: 0;
+}
+
+.mu-flat-button-label {
+  font-size: 1.5rem;
+  border-radius: 0;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>51</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-7" transform="translate(-216.000000, -975.000000)" stroke="#FFFFFF">
+            <g id="Group-8" transform="translate(217.000000, 976.000000)">
+                <g id="Group-10" transform="translate(8.000000, 13.000000)" stroke-width="1.83783784">
+                    <rect id="Rectangle-path" x="0" y="0" width="33.6603553" height="24.666927" rx="1.83783784"></rect>
+                    <g id="Group-6" transform="translate(4.590048, 7.708415)">
+                        <rect id="Rectangle-path" x="0" y="0.494667188" width="9.29365278" height="6.91960072"></rect>
+                        <path d="M13.7538143,1.02778863 L23.2598813,1.02778863" id="Shape"></path>
+                        <path d="M13.7538143,7.19452038 L23.2598813,7.19452038" id="Shape"></path>
+                    </g>
+                </g>
+                <path d="M13.5979914,0 L5.43919654,0 C2.43521124,0 0,2.43521124 0,5.43919654 L0,13.5979914 M48.9527689,13.5979914 L48.9527689,5.43919654 C48.9527689,2.43521124 46.5175576,0 43.5135723,0 L35.3547775,0 M35.3547775,48.9527689 L43.5135723,48.9527689 C46.5175576,48.9527689 48.9527689,46.5175576 48.9527689,43.5135723 L48.9527689,35.3547775 M0,35.3547775 L0,43.5135723 C0,46.5175576 2.43521124,48.9527689 5.43919654,48.9527689 L13.5979914,48.9527689" id="Shape" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

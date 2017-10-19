@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="47px" viewBox="0 0 38 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-572.000000, -885.000000)">
+            <g id="Group-5" transform="translate(574.000000, 887.000000)">
+                <rect id="Rectangle-17" fill="#D5D5D5" x="10.4615385" y="11.7272727" width="13.0769231" height="2.60606061" rx="1.3030303"></rect>
+                <rect id="Rectangle-17-Copy-2" fill="#D5D5D5" transform="translate(17.010216, 18.394328) rotate(90.000000) translate(-17.010216, -18.394328) " x="11.6270001" y="17.1014774" width="10.7664325" height="2.58570076" rx="1.29285038"></rect>
+                <rect id="Rectangle-17-Copy" fill="#D5D5D5" x="9.14123535" y="22.1515152" width="15.7049185" height="2.60606061" rx="1.3030303"></rect>
+                <path d="M17,43 C17,43 34,34.4 34,21.5 L34,4.3 L17,0 L0,4.3 L0,21.5 C0,34.4 17,43 17,43 Z" id="Shape" stroke="#D5D5D5" stroke-width="2.61538462" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

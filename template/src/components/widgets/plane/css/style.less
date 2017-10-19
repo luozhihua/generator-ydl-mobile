@@ -1,0 +1,459 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.dspn {
+  display: none;
+}
+
+.posi-fixed {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 37.5rem;
+  margin-left: -18.75rem;
+  overflow: hidden;
+}
+
+.placeholder {
+  background: url(../img/bg.jpg) no-repeat center center/100% 100%;
+}
+
+.bg-ff {
+  background: #fff;
+}
+
+.bg-00 {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-f2c {
+  background: #f2cd43;
+}
+
+.horn {
+  position: absolute;
+  z-index: 120;
+  right: 2rem;
+  top: 3.5rem;
+  width: 2.5rem;
+  height: 2.2rem;
+  background: url(../img/horn.png) no-repeat center center/100% 100%;
+}
+
+.close {
+  position: absolute;
+  z-index: 120;
+  left: 2rem;
+  top: 3.5rem;
+  width: 2.5rem;
+  height: 2.2rem;
+  background: url(../img/close.png) no-repeat center center/100% 100%;
+}
+
+.first-animation {
+  display: block;
+
+  .clond-box {
+
+    div {
+      position: absolute;
+      z-index: 12;
+      opacity: .6;
+    }
+
+    .first, .second {
+      width: 36.7rem;
+      height: 22rem;
+      background: url(../img/cloud1.png) no-repeat center center/100% 100%;
+    }
+
+    .second, .third {
+      right: -20rem;
+    }
+
+    .first {
+      left: -22.5rem;
+      top: 50%;
+      animation: slideLeft .25s .5s both;
+    }
+
+    .second {
+      top: 20%;
+      animation: slideRight .25s .25s both;
+    }
+
+    .third {
+      top: 60%;
+      width: 30.4rem;
+      height: 18.25rem;
+      background: url(../img/cloud2.png) no-repeat center center/100% 100%;
+      animation: slideRight .25s .75s both;
+    }
+  }
+
+  .aircraft-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 44.3rem;
+    height: 49.75rem;
+    margin-left: -22.15rem;
+    margin-top: -24.875rem;
+    animation: slideUp .5s linear both;
+    z-index: 1;
+
+    .aircraft-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      animation: enlarge1 .5s linear .4s both;
+    }
+
+    .aircraft {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      animation: slideUp0 .5s linear 8.25s both;
+    }
+
+    .aircraft-main {
+      position: absolute;
+      z-index: 99;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      background: url(../img/aircraft.png) no-repeat center center/100% 100%;
+      animation: enlarge0 .5s linear 8s both;
+    }
+
+    img {
+      position: absolute;
+      z-index: 98;
+      left: 50%;
+      top: 35rem;
+      width: 1.5rem;
+      height: 12.5rem;
+      margin-left: -0.75rem;
+    }
+  }
+
+  .main-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 0;
+    animation: slideUp2 2s 5s both;
+
+    .time {
+      font-size: 1.6rem;
+      color: #fff;
+      letter-spacing: 0.1rem;
+      text-shadow: 0 1px 0.5rem #75500c;
+      margin-bottom: 1.2rem;
+      animation: fadein 1s linear 1.25s both;
+    }
+
+    h2 {
+      width: 30.8rem;
+      height: 5.699999999999999rem;
+      line-height: 4.25rem;
+      margin: 0 auto;
+      background: url(../img/title.png) no-repeat center center/100% 100%;
+      font-size: 2.5rem;
+      color: #fff;
+      text-shadow: 0 1px 0.75rem #75500c;
+      animation: slideDown .5s linear 1.25s both, fadein .5s linear 1.25s both;
+
+      span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        animation: enlarge2 .5s linear 1.75s both;
+      }
+    }
+
+    ul {
+      margin-top: 1rem;
+
+      li {
+        position: relative;
+
+        .photo {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%);
+
+          .head-circle {
+            //width: 150%;
+            //height: 150%;
+            //transform: translate(-17%, 0);
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 0.3rem solid #fff;
+            box-sizing: border-box;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              min-height: 100%;
+            }
+          }
+
+          .crown {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 2.2rem;
+            height: 2rem;
+          }
+
+        }
+
+        &.first {
+          width: 19.25rem;
+          height: 18.85rem;
+          margin: 0 auto 2rem;
+          font-size: 0;
+
+          h3 {
+            position: relative;
+            margin: 0;
+            padding: 0.5rem 0;
+            font-size: 2.25rem;
+            color: #fff;
+            text-shadow: 0 1px 0.5rem #75500c;
+            overflow: hidden;
+          }
+
+          h3 span {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #f2cd43;
+            animation: slideLeft1 1s 2s both;
+          }
+
+          .photo {
+            top: 2.75rem;
+            width: 5.5rem;
+            height: 5.5rem;
+
+            .crown {
+              background: url(../img/first-maozi.png) no-repeat center center/100% 100%;
+            }
+          }
+
+          .chassis {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 5.75rem;
+            background: url(../img/first.png) no-repeat center center/100% 100%;
+            animation: fadein 1s 2.25s both;
+          }
+
+          .teatable {
+            position: absolute;
+            left: 0.5rem;
+            bottom: 2.5rem;
+            width: 4.5rem;
+            height: 7.3rem;
+            background: url(../img/water.png) no-repeat center center/100% 100%;
+            animation: slideLeft .5s 3s both, fadein .5s 3s both;
+          }
+
+          .bag {
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+            width: 4.45rem;
+            height: 4.3rem;
+            background: url(../img/bao.png) no-repeat center center/100% 100%;
+            animation: slideRight .5s 3.25s both, fadein .5s 3.25s both;
+          }
+
+          .sofa-first {
+            position: absolute;
+            left: 50%;
+            bottom: 4rem;
+            width: 9.8rem;
+            height: 12.450000000000001rem;
+            margin-left: -4.9rem;
+            animation: slideDown 1s 2.5s both;
+
+            .sofa-first-main {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background: url(../img/sofa.png) no-repeat center center/100% 100%;
+              animation: enlarge3 1s 2.5s both;
+            }
+          }
+
+          .person {
+            position: relative;
+            z-index: 101;
+            width: 100%;
+            height: 100%;
+            animation: slideUp1 1s 3.7s both, fadein 1s 3.7s both;
+
+            .person-main {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              animation: slideRight 1s cubic-bezier(0, 1.29, 0.67, 1.49) 3.7s both;
+            }
+
+            .main {
+              position: absolute;
+              left: 50%;
+              bottom: 1.5rem;
+              width: 9.15rem;
+              height: 10.8rem;
+              transform: translate(-50%);
+              background: url(../img/champion.png) no-repeat center center/100% 100%;
+            }
+
+            .arm {
+              position: absolute;
+              right: 4.4rem;
+              top: 5.5rem;
+              width: 1.7000000000000002rem;
+              height: 2.8499999999999996rem;
+              background: url(../img/arm.png) no-repeat center center/100% 100%;
+              transform-origin: 0 100%;
+              animation: arm .2s 4.7s 5 alternate;
+            }
+          }
+        }
+
+        &.others {
+          display: inline-block;
+          width: 9.85rem;
+          height: 14.55rem;
+          margin: 0 0.5rem;
+          background: url(../img/other-sofa.png) no-repeat center center/100% 65%;
+          overflow: hidden;
+
+          .person {
+            position: absolute;
+            left: 50%;
+            top: 3rem;
+            width: 9.200000000000001rem;
+            height: 10.8rem;
+            transform: translate(-50%);
+          }
+
+          .person.man {
+            background: url(../img/man.png) no-repeat center center/100% 100%;
+          }
+
+          .person.woman {
+            background: url(../img/women.png) no-repeat center center/100% 100%;
+          }
+
+          .photo {
+            top: 0;
+            width: 5rem;
+            height: 5rem;
+          }
+
+          h3 {
+            position: absolute;
+            z-index: 10;
+            top: 9.25rem;
+            left: 50%;
+            width: 100%;
+            transform: translate(-50%);
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: #747474;
+          }
+
+          .mask {
+            position: absolute;
+            z-index: 11;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #f2cd43;
+            animation: slideDown1 .5s both;
+          }
+
+          &.second .crown {
+            background: url(../img/second-maozi.png) no-repeat center center/100% 100%;
+          }
+
+          &.third .crown {
+            background: url(../img/third-maozi.png) no-repeat center center/100% 100%;
+          }
+        }
+
+        &.others1 .mask {
+          animation-delay: 4.8s;
+        }
+        &.others2 .mask {
+          animation-delay: 4.9s;
+        }
+        &.others3 .mask {
+          animation-delay: 5.0s;
+        }
+        &.others4 .mask {
+          animation-delay: 5.1s;
+        }
+        &.others5 .mask {
+          animation-delay: 5.2s;
+        }
+        &.others6 .mask {
+          animation-delay: 5.3s;
+        }
+        &.others7 .mask {
+          animation-delay: 5.4s;
+        }
+        &.others8 .mask {
+          animation-delay: 5.5s;
+        }
+        &.others9 .mask {
+          animation-delay: 5.6s;
+        }
+      }
+    }
+  }
+
+  .bg-ff {
+    z-index: 2;
+    animation: fadein .5s ease-in .5s both;
+  }
+
+  .bg-f2c {
+    z-index: 3;
+    animation: fadein .5s ease-in .75s both;
+  }
+
+  .bg-f2c-box {
+    z-index: 11;
+    animation: fadeout .5s ease-in 7.5s both;
+  }
+}

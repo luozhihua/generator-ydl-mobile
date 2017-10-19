@@ -1,0 +1,13 @@
+{
+  "name": "vue-cli-template-joyshark-mobile",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A vue-cli template for create Joyshark mobile project.",
+  "scripts": {
+    "docs": "cd docs && gitbook serve",
+    "docs:deploy": "bash ./deploy-docs.sh"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}

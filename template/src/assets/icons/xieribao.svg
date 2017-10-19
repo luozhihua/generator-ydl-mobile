@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-100.000000, -45.000000)">
+            <g id="Group-16" transform="translate(101.000000, 46.000000)">
+                <g id="calendar-(1)">
+                    <g id="Group-22">
+                        <g id="Group-21">
+                            <g id="Group-27">
+                                <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1.78947368" stroke-linecap="round" stroke-linejoin="round" x="0" y="3.5978836" width="34" height="34.1798942" rx="3.8"></rect>
+                                <text id="日" font-family="PingFangSC-Regular, PingFang SC" font-size="18.8888889" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="7.55555556" y="27.5">日</tspan>
+                                </text>
+                                <path d="M24.1578947,0 L24.1578947,6.83597884" id="Shape" stroke="#FFFFFF" stroke-width="1.78947368" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M9.84210526,0 L9.84210526,6.83597884" id="Shape" stroke="#FFFFFF" stroke-width="1.78947368" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

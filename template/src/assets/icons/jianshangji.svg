@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="37px" viewBox="0 0 41 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>25</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-533.000000, -772.000000)">
+            <g id="Group-9" transform="translate(534.000000, 773.121809)">
+                <g id="check-circle">
+                    <path d="M34,15.47 L34,17 C34,26.35 26.35,34 17,34 C7.65,34 0,26.35 0,17 C0,7.65 7.65,0 17,0 C19.38,0 21.76,0.51 23.97,1.53" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <text id="$" fill="#FFFFFF" font-family="Helvetica" font-size="23.8" font-weight="normal">
+                        <tspan x="10.91661" y="24.41661">$</tspan>
+                    </text>
+                </g>
+                <g id="chevron-up" transform="translate(34.500000, 15.500000) rotate(4.000000) translate(-34.500000, -15.500000) translate(30.000000, 13.000000)" stroke-linecap="round" stroke-width="2" stroke="#FFFFFF" stroke-linejoin="round">
+                    <polyline id="Shape" points="8.18554687 4.09277344 4.09277344 0 0 4.09277344"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

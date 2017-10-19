@@ -1,0 +1,219 @@
+@import url("../../styles/vars.less");
+
+@-webkit-keyframes saomiao-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    //  transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+    //    transform: rotate(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    //   transform: rotate(360deg);
+  }
+}
+
+.app-view {
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  //position: relative;
+  //height: 100vh;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  transition: bottom .3s;
+
+  .app-view-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5rem;
+    overflow: auto;
+  }
+
+  .footer-nav {
+
+    position: absolute;
+    z-index: 1000;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    visibility: visible !important;
+
+    animation-name: slideInUp;
+    animation-duration: .3s;
+    animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.10);
+
+    &.hide {
+      animation-name: slideOutDown;
+      animation-duration: .3s;
+      animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+      animation-fill-mode: both;
+
+      .add-button,
+      .nav-list.hide {
+        display: none;
+      }
+    }
+
+    > li {
+      flex: 1;
+      text-align: center;
+      list-style: none;
+
+      a {
+        font-family: Roboto;
+        display: block;
+        padding: .8rem .9rem .55rem;
+        font-size: 1.2rem;
+        color: #CBC9C9;
+        letter-spacing: -0.58px;
+        font-weight: 400;
+
+        .icon {
+          width: 1.6rem;
+          height: 1.6rem;
+          display: block;
+          line-height: 1;
+          margin-bottom: .3rem;
+          margin: auto;
+        }
+        .img-home {
+          background: url("../../assets/icons/shouye.svg");
+        }
+        .img-home-1 {
+          background: url("../../assets/icons/shouye1.svg");
+        }
+      }
+
+      &.active, &.active a, a.active {
+        color: @color-primary;
+      }
+
+    }
+
+    .add-button {
+      position: relative;
+
+      > a {
+        background-color: @color-primary;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        z-index: 2;
+        bottom: .7rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+
+        &:before,
+        &:after {
+          display: block;
+          content: '';
+          display: block;
+          background-color: #fff;
+          border-radius: 5rem;
+          height: .5rem;
+          width: 2.2rem;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -1.1rem;
+          margin-top: -.25rem;
+        }
+        &:after {
+          transform: rotate(-90deg);
+        }
+      }
+    }
+
+    .mingpiansaomiao_box {
+      position: relative;
+      > a {
+        background-color: @color-primary;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        z-index: 2;
+        bottom: .7rem;
+        left: 50%;
+        margin-left: -3rem;
+        //transform: translateX(-50%);
+        display: block;
+        background-size: 38%;
+        > input {
+          width: 100%;
+          height: 100%;
+          opacity: 0
+        }
+
+      }
+
+    }
+
+    .mingpiansaomiao—anmation {
+      -webkit-animation: saomiao-rotate 1s 0s infinite linear;
+      //   animation: saomiao-rotate 1s 0s infinite linear;
+    }
+
+  }
+
+  .nav-list {
+    position: fixed;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vh;
+    height: 100vh;
+    transition: .15s;
+    transition-timing-function: cubic-bezier(.5, 0, .5, 1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.hide {
+      border-radius: 500rem;
+      background: rgba(0, 0, 0, 0);
+      width: 0rem;
+      height: 0rem;
+      bottom: .7rem;
+    }
+
+    ul {
+      width: 100vw;
+      margin: auto;
+
+      li {
+        display: inline-block;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .widgets {
+    position: fixed;
+    z-index: 100000;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 1vh;
+    overflow: visible;
+  }
+}
+

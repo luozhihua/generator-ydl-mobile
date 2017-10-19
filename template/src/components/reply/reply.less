@@ -1,0 +1,100 @@
+//回复
+.reply-input-box {
+  .reply-input {
+    padding: 1rem;
+    background: #f6f6f6;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    .reply-input-content {
+      width: 100%;
+      display: flex;
+      .input {
+        flex: 1;
+        margin-right: 0.5rem;
+        height: 2.8rem;
+        input {
+          width: 100%;
+          height: 9vw;
+          font-size: 1.4rem;
+          border: 1px solid #ddd;
+          background: #fff;
+          -webkit-appearance: none;
+          border-radius: 0;
+          line-height: 9.1vw;
+          border-radius: 0.5rem;
+          padding-left: 0.5rem;
+        }
+      }
+      .btn-group {
+
+        width: 4.5rem;
+        height: 2.8rem;
+        z-index: 3;
+
+        div {
+          float: left
+        }
+
+        .send {
+          background: #3B7CEC;
+          color: #fff;
+          line-height: 9vw;
+          width: 4.5rem;
+          text-align: center;
+          border-radius: 0.5rem;
+        }
+      }
+    }
+
+  }
+
+  .reply-input {
+    .input {
+      margin-right: 4.3rem;
+    }
+    .btn-group {
+      width: 4.3rem;
+    }
+  }
+
+  .comments-animation {
+    -webkit-animation-name: slideInUp;
+    -moz-animation-name: slideInUp;
+    -o-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    -moz-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    -o-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+
+  }
+
+  .comments-animation.hide, .comments-animation.hide {
+    visibility: hidden;
+    -webkit-animation-name: slideOutDown;
+    -moz-animation-name: slideOutDown;
+    -o-animation-name: slideOutDown;
+    animation-name: slideOutDown;
+    -webkit-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    -moz-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    -o-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+}

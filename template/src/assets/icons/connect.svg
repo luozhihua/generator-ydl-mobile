@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="39px" viewBox="0 0 46 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>47</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-7" transform="translate(-276.000000, -1163.000000)" stroke="#3B7CEC" stroke-width="2.1">
+            <g id="Group-14" transform="translate(278.000000, 1165.000000)">
+                <g id="Group-13">
+                    <g id="Group-3" transform="translate(30.450000, 6.352941)">
+                        <path d="M0,7.41176471 L9.45,7.41176471" id="Shape"></path>
+                        <path d="M0,1.05882353 L11.55,1.05882353" id="Shape"></path>
+                        <path d="M0,13.7647059 L6.64078309,13.7647059" id="Shape"></path>
+                    </g>
+                    <g id="user">
+                        <path d="M31.9739014,35.9917279 L31.9739014,31.9926471 C31.9739014,27.5753843 28.3951006,23.9944853 23.980426,23.9944853 L7.99347534,23.9944853 C3.57880081,23.9944853 0,27.5753843 0,31.9926471 L0,35.9917279" id="Shape"></path>
+                        <ellipse id="Oval" cx="15.9869507" cy="7.99816176" rx="7.99347534" ry="7.99816176"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

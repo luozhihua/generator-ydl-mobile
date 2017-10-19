@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "react",
+    [
+      "env", {
+        "targets": {
+          "browsers": ["last 50 versions", "safari >= 7"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "add-module-exports",
+    "transform-es2015-destructuring",
+    "transform-es2015-parameters",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "syntax-dynamic-import",
+    "transform-vue-jsx",
+    ["component", [
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "~src/theme/default"
+      }
+    ]]
+  ]
+}

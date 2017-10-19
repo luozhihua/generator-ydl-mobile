@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		var html = document.documentElement;
+		var n = html.offsetWidth / 7.5;
+		if (n > 100) n = 100;
+		if (n < 40) n = 40;
+		html.style.fontSize = n + 'px';
+	</script>
+	<!-- start 正式环境删除 -->
+	<style>
+		button{
+			width: 2rem;
+			height: 1rem;
+		}
+	</style>
+	<!-- end 正式环境删除 -->
+</head>
+<body>
+	<div class="posi-fixed placeholder">
+		<!-- start 正式环境删除 -->
+		<div class="test-btn">
+			<button @click="startAnimationAircraft">飞机动画</button>
+			<button @click="startAnimationCrow">乌鸦动画</button>
+		</div>
+		<!-- end 正式环境删除 -->
+		<div class="posi-fixed bg-00 dspn" ref="animationAircraft">
+			<div class="clond-box" ref="clond_box">
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
+			</div>
+			<div class="aircraft-box">
+				<div class="aircraft-wrapper">
+					<div class="aircraft" ref="aircraft">
+						<div class="aircraft-main"></div>
+						<img src="img/tail.png" />
+					</div>
+				</div>
+			</div>
+			<div class="posi-fixed bg-ff" ref="bg_ff"></div>
+			<div class="posi-fixed bg-f2c-box">
+				<div class="posi-fixed bg-f2c">
+					<div class="main-box">
+						<p class="time">2017年7月19日</p>
+						<h2>
+							<span>销售之星 TOP 10</span>
+						</h2>
+						<ul>
+							<li class="first">
+								<h3>
+									No.1 {{first.name}}
+									<span></span>
+								</h3>
+								<div class="chassis"></div>
+								<div class="sofa-first">
+									<div class="sofa-first-main"></div>
+								</div>
+								<div class="teatable"></div>
+								<div class="bag"></div>
+								<div class="person">
+									<div class="person-main">
+										<div class="arm"></div>
+										<div class="main"></div>
+										<div class="photo">
+											<div class="crown"></div>
+											<div class="head-circle">
+												<img :src="first.url" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="others second" :class="'others' + (index + 1)" v-for="(item,index) in others" :key="item.name">
+								<h3>
+									<span>No.{{index + 1}} {{item.name}}</span>
+								</h3>
+								<div class="person" :class="{'man': item.sex, 'woman': !item.sex}"></div>
+								<div class="photo">
+									<div class="crown"></div>
+									<div class="head-circle">
+										<img :src="item.url" />
+									</div>
+								</div>
+								<div class="mask"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="horn" @click="startMusic"></div>
+		</div>
+
+		<div class="posi-fixed bg-00 dspn" ref="animationCrow">
+			<div class="title">
+				<h2>
+					<span>业</span>
+					<span>绩</span>
+					<span>最</span>
+					<span>差</span>
+					<span>排</span>
+					<span>名</span>
+				</h2>
+			</div>
+			<div class="branch">
+				<img src="img/branch.png" />
+			</div>
+			<ul class="crow-box" ref="crow-box">
+				<li v-for="(item,index) in list" :class="'crow' + (index + 1)" :key="item.name">
+					<div class="cloud">
+						<p class="no">No.{{index + 1}}</p>
+						<p class="name">{{item.name}}</p>
+						<img class="bluecloud" src="img/cloud.png" />
+						<img class="whitecloud" src="img/cloud11.png" />
+					</div>
+					<div class="crow">
+						<img class="c1" src="img/crow1.png" />
+						<img class="c2" src="img/crow2.png" />
+						<img class="c3" src="img/crow3.png" />
+						<img class="c4" src="img/crow4.png" />
+						<img class="c5" src="img/crow5.png" />
+						<img class="c6" src="img/crow6.png" />
+						<img class="c7" src="img/crow7.png" />
+						<img class="c8" src="img/crow8.png" />
+						<img class="c9" src="img/crow9.png" />
+						<img class="c10" src="img/crow10.png" />
+						<img class="c11" src="img/crow11.png" />
+						<img class="c12" src="img/crow12.png" />
+						<img class="c13" src="img/crow13.png" />
+						<img class="c14" src="img/crow14.png" />
+						<img class="c15" src="img/crow15.png" />
+						<img class="c16" src="img/crow16.png" />
+						<img class="placeholder1" src="img/crow14.png" />
+					</div>
+					<div class="lightning"></div>
+					<div class="rain rain1"></div>
+					<div class="rain rain2"></div>
+					<div class="rain rain3"></div>
+					<div class="rain rain4"></div>
+					<div class="rain rain5"></div>
+					<div class="rain rain6"></div>
+				</li>
+			</ul>
+			<div class="horn" @click="startMusic1"></div>
+		</div>
+
+    <audio src="mp3/8004.mp3" preload="preload" ref="audioAircraft"></audio>
+		<audio src="mp3/2176.wav" preload="preload" ref="audioCrow"></audio>
+	</div>
+	<script src="js/vue.js"></script>
+	<script src="js/es6-promist.js"></script>
+	<script src="js/axios.min.js"></script>
+	<script>
+		var options = {
+			data: {
+				first: {},
+				others: [],
+				list: [],
+				audioSwitch: false,
+				audioSwitch1: false
+			},
+			mounted: function () {
+				var _this = this;
+				_this.$refs.bg_ff.addEventListener('webkitAnimationEnd', function() {
+					setTimeout(function() {
+						_this.$refs.bg_ff.style.display = 'none';
+					}, 1000);
+				});
+				_this.$refs.bg_ff.addEventListener('animationend', function() {
+					setTimeout(function() {
+						_this.$refs.bg_ff.style.display = 'none';
+					}, 1000);
+				});
+				_this.$refs.aircraft.addEventListener('webkitAnimationEnd', function() {
+					setTimeout(function() {
+						_this.$refs.animationAircraft.classList.remove('first-animation')
+						_this.$refs.audioAircraft.pause();
+						_this.audioSwitch = false;
+					},300)
+				});
+				_this.$refs.aircraft.addEventListener('animationend', function() {
+					setTimeout(function() {
+						_this.$refs.animationAircraft.classList.remove('first-animation')
+						_this.$refs.audioAircraft.pause();
+						_this.audioSwitch = false;
+					},300)
+				});
+				_this.$refs.clond_box.addEventListener('webkitAnimationEnd', function() {
+					setTimeout(function() {
+						_this.$refs.clond_box.style.display = 'none'
+					}, 1000)
+				});
+				_this.$refs.clond_box.addEventListener('animationend', function() {
+					setTimeout(function() {
+						_this.$refs.clond_box.style.display = 'none'
+					}, 1000)
+				});
+			},
+			methods: {
+				startAnimationAircraft: function () {
+					var _this = this;
+					axios({
+						url: 'http://192.168.1.100:888/config'
+					}).then(function(res) {
+						var list = res.data;
+						_this.first = list.splice(1,1)[0];
+						_this.others = list;
+						_this.$refs.audioAircraft.currentTime = 0;
+						_this.$refs.audioAircraft.play();
+						_this.audioSwitch = true;
+						_this.$refs.animationAircraft.classList.add('first-animation');
+					})
+				},
+				startAnimationCrow: function () {
+					var _this = this;
+					axios({
+						url: 'http://192.168.1.100:888/config1'
+					}).then(function(res) {
+						_this.list = res.data;
+						_this.$refs.audioCrow.currentTime = 0;
+						_this.$refs.audioCrow.play();
+						_this.audioSwitch1 = true;
+						_this.$refs.animationCrow.classList.add('second-animation');
+						_this.$nextTick(function () {
+							var crow_list = _this.$refs['crow-box'].getElementsByTagName('li'),
+								len = crow_list.length,
+								last = crow_list[len - 1].querySelector('.crow');
+							for (var i = 0; i < len; i++) {
+								crow_list[i].addEventListener('webkitAnimationEnd', function() {
+									this.classList.add('drop');
+								});
+								crow_list[i].addEventListener('animationend', function() {
+									this.classList.add('drop');
+								})
+							}
+							last.addEventListener('webkitAnimationEnd', animationend);
+							last.addEventListener('animationend', animationend);
+							function animationend() {
+								_this.$refs.animationCrow.classList.remove('second-animation')
+								_this.$refs.audioCrow.pause();
+								_this.audioSwitch1 = false;
+								_this.list = [];
+							}
+						})
+					})
+				},
+				startMusic: function () {
+					if (this.audioSwitch) {
+						this.$refs.audioAircraft.pause();
+						this.audioSwitch = false;
+					}else{
+						this.$refs.audioAircraft.play();
+						this.audioSwitch = true;
+					}
+				},
+				startMusic1: function () {
+					if (this.audioSwitch1) {
+						this.$refs.audioCrow.pause();
+						this.audioSwitch1 = false;
+					}else{
+						this.$refs.audioCrow.play();
+						this.audioSwitch1 = true;
+					}
+				}
+			}
+		}
+
+		new Vue(options).$mount('.placeholder');
+
+	</script>
+</body>
+</html>

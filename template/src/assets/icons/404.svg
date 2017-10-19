@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="284px" height="251px" viewBox="0 0 284 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="404" transform="translate(-232.000000, -254.000000)">
+            <g id="Group-3" transform="translate(230.000000, 255.000000)">
+                <path d="M219.469533,241.827639 L219.730429,242.303605 C169.159764,257.614152 69.1505576,242.587366 69.1505576,242.587366 L127.046445,75.2831659 L126.07872,73.5360268 C130.729751,72.6420536 162.516958,74.43 162.516958,74.43 L222.522998,239.581507 L219.469533,241.827639 Z" id="Combined-Shape" fill="#E4EEFF" opacity="0.381567029"></path>
+                <ellipse id="Oval" fill="#E4EEFF" fill-rule="nonzero" cx="145.792751" cy="240.042857" rx="76.6421933" ry="8.1"></ellipse>
+                <ellipse id="Oval" fill="#D3DFF5" fill-rule="nonzero" cx="146.050372" cy="239.785714" rx="24.0875465" ry="1.92857143"></ellipse>
+                <text id="4" fill="#3B7CEC" font-family="Helvetica" font-size="99" font-weight="normal">
+                    <tspan x="0.669144981" y="241.5">4</tspan>
+                </text>
+                <text id="4" fill="#3B7CEC" font-family="Helvetica" font-size="99" font-weight="normal">
+                    <tspan x="234.724482" y="241.5">4</tspan>
+                </text>
+                <g id="Group" transform="translate(75.591078, 14.142857)" stroke="#3B7CEC" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M70.7169145,1.28571429 C39.2871747,-0.128571429 12.1081784,10.8 1.15929368,27.2571429 C10.6912639,44.6142857 36.839777,57.8571429 68.1407063,59.2714286 C99.5704461,60.6857143 126.749442,49.7571429 137.698327,33.3 C128.295167,15.8142857 102.146654,2.57142857 70.7169145,1.28571429 Z" id="Shape" stroke-width="3" fill="#E4EEFF"></path>
+                    <path d="M1.28810409,28.2857143 C35.6872422,47.862514 102.993883,47.9635882 135.250929,33.4285714" id="Shape" stroke-width="2.88"></path>
+                </g>
+                <path d="M173.486989,23.1428571 C173.358178,10.6714286 160.992379,0.642857143 145.792751,0.642857143 C130.464312,0.642857143 118.098513,10.8 118.098513,23.4 C118.098513,23.4 118.098513,23.4 118.098513,23.5285714 C125.955948,25.8428571 135.359108,27.1285714 145.40632,27.1285714 C155.839963,27 165.500743,25.5857143 173.486989,23.1428571 Z" id="Shape" stroke="#3B7CEC" stroke-width="3" fill="#E4EEFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-2" transform="translate(69.150558, 72.000000)" stroke="#3B7CEC" fill-rule="nonzero" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M57.5782528,0.385714286 L0,168.428571" id="Shape"></path>
+                    <path d="M94.4180297,1.67142857 L151.996283,167.142857" id="Shape"></path>
+                </g>
+                <g id="Group-5" transform="translate(75.000000, 136.500000)" stroke="#CEE0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5.25,0 L5.25,9" id="Line"></path>
+                    <path d="M0.875,4.27377127 L9.625,4.27377127" id="Line"></path>
+                </g>
+                <text id="0" fill="#3B7CEC" transform="translate(144.984659, 179.688790) rotate(-43.326630) translate(-144.984659, -179.688790) " font-family="ArialMT, Arial" font-size="114.1257" font-weight="normal">
+                    <tspan x="117.288667" y="217.321987">0</tspan>
+                </text>
+                <ellipse id="Oval-2" stroke="#3B7CEC" stroke-width="3" cx="142.572491" cy="99" rx="2.57620818" ry="2.57142857"></ellipse>
+                <ellipse id="Oval-2" stroke="#3B7CEC" stroke-width="3" cx="103.929368" cy="190.285714" rx="2.57620818" ry="2.57142857"></ellipse>
+                <ellipse id="Oval-2" stroke="#3B7CEC" stroke-width="3" cx="186.36803" cy="219.857143" rx="2.57620818" ry="2.57142857"></ellipse>
+                <g id="Group-5" transform="translate(189.000000, 96.000000)" stroke="#CEE0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8.25,0 L8.25,13.5" id="Line"></path>
+                    <path d="M1.375,6.4106569 L15.125,6.4106569" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

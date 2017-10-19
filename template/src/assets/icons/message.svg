@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>46</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-27.000000, -1244.000000)">
+            <g id="Group-9" transform="translate(28.000000, 1245.000000)">
+                <g id="message-square" stroke="#3B7CEC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M40.8632812,27.2421875 C40.8632812,29.7497616 38.8304908,31.7825521 36.3229167,31.7825521 L9.08072917,31.7825521 L0,40.8632812 L0,4.54036458 C0,2.03279047 2.03279047,0 4.54036458,0 L36.3229167,0 C38.8304908,0 40.8632812,2.03279047 40.8632812,4.54036458 L40.8632812,27.2421875 Z" id="Shape"></path>
+                </g>
+                <g id="Group-12" transform="translate(10.215820, 12.769775)" fill="#3B7CEC">
+                    <circle id="Oval-2" cx="2.55395508" cy="2.55395508" r="2.55395508"></circle>
+                    <circle id="Oval-2" cx="10.2158203" cy="2.55395508" r="2.55395508"></circle>
+                    <circle id="Oval-2" cx="17.8776855" cy="2.55395508" r="2.55395508"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="36px" viewBox="0 0 52 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>29</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-666.000000, -983.000000)">
+            <g id="Group-6" transform="translate(666.000000, 984.000000)">
+                <g id="square" transform="translate(11.000000, 5.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-path" x="0" y="0" width="30.9462891" height="29" rx="2"></rect>
+                </g>
+                <g id="square" transform="translate(19.000000, 0.534180)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-path" x="0" y="0" width="13.9757434" height="4.47732399" rx="2"></rect>
+                </g>
+                <circle id="Oval-2" fill="#FFFFFF" cx="19.6557617" cy="18.987793" r="3.23291016"></circle>
+                <circle id="Oval-2" fill="#FFFFFF" cx="32.2329102" cy="19.2329102" r="3.23291016"></circle>
+                <rect id="Rectangle-2" fill="#FFFFFF" x="49" y="14" width="3" height="10" rx="1.5"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" x="44" y="10.8862305" width="3" height="17.1137695" rx="1.5"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(1.500000, 19.000000) rotate(-270180.000000) translate(-1.500000, -19.000000) " x="1.13686838e-13" y="14" width="3" height="10" rx="1.5"></rect>
+                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(6.500000, 18.556885) rotate(-270180.000000) translate(-6.500000, -18.556885) " x="5" y="10" width="3" height="17.1137695" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

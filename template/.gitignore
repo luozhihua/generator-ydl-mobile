@@ -1,0 +1,16 @@
+.DS_Store/
+$Recycle.Bin/
+doc/
+node_modules/
+dist/
+npm-debug.log
+.idea
+*.sublime-*
+*.zip
+.sshconfig
+ssh.config
+dploy.yaml
+.vscode
+.jenkins
+.project
+nohup.out

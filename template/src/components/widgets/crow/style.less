@@ -1,0 +1,405 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.dspn {
+  display: none;
+}
+
+.posi-fixed {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 37.96875rem;
+  margin-left: -18.984375rem;
+  overflow: hidden;
+}
+
+.bg-00 {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.horn {
+  position: absolute;
+  z-index: 120;
+  right: 2.025rem;
+  top: 3.5437499999999997rem;
+  width: 2.53125rem;
+  height: 2.2274999999999996rem;
+  background: url(../plane/img/horn.png) no-repeat center center/100% 100%;
+}
+
+.close {
+  position: absolute;
+  z-index: 120;
+  left: 2.025rem;
+  top: 3.5437499999999997rem;
+  width: 2.53125rem;
+  height: 2.2274999999999996rem;
+  background: url(../plane/img/close.png) no-repeat center center/100% 100%;
+}
+
+.second-animation {
+  display: block;
+
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 6.885000000000001rem;
+    width: 31.286249999999992rem;
+    height: 5.771249999999999rem;
+    margin-left: -15.643124999999996rem;
+    text-align: center;
+    background: url(../plane/img/crowtit.png) no-repeat center center/100% 100%;
+    color: #fff;
+    font-size: 2.733750000000001rem;
+    animation: enlarge3 1s cubic-bezier(0.82, 0, 0.75, 1.36) both;
+
+    h2 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      line-height: 1.5em;
+      font-size: 3rem;
+      opacity: 0;
+      animation: show .1s .5s both;
+
+      span {
+        display: inline-block;
+        animation: slideDown3 0.5s cubic-bezier(0.94, -0.01, 1, 0.79) both;
+
+        &:nth-child(1) {
+          animation-delay: .1s;
+        }
+
+        &:nth-child(2) {
+          animation-delay: .2s;
+        }
+
+        &:nth-child(3) {
+          animation-delay: .3s;
+        }
+
+        &:nth-child(4) {
+          animation-delay: .4s;
+        }
+
+        &:nth-child(5) {
+          animation-delay: .5s;
+        }
+
+        &:nth-child(6) {
+          animation-delay: .6s;
+        }
+      }
+    }
+  }
+
+  .branch {
+    position: absolute;
+    right: -16rem;
+    top: 33.46312500000001rem;
+    width: 27.995625rem;
+    height: 5.2143749999999995rem;
+    animation: slideLeft3 1s linear both;
+
+    img {
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  .crow-box {
+    position: absolute;
+    right: -16rem;
+    top: 15.440625rem;
+    width: 15.136875000000002rem;
+    height: 19.895625000000006rem;
+
+    li {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      animation: slideLeft2 2.5s linear both;
+
+      &.crow1 {
+        animation-delay: 1s;
+      }
+
+      &.crow2 {
+        animation-delay: 2s;
+      }
+
+      &.crow3 {
+        animation-delay: 3s;
+      }
+
+      &.crow4 {
+        animation-delay: 4s;
+      }
+
+      &.crow5 {
+        animation-delay: 5s;
+      }
+
+      &.crow6 {
+        animation-delay: 6s;
+      }
+
+      &.crow7 {
+        animation-delay: 7s;
+      }
+
+      &.crow8 {
+        animation-delay: 8s;
+      }
+
+      &.crow9 {
+        animation-delay: 9s;
+      }
+
+      &.crow10 {
+        animation-delay: 10s;
+      }
+
+      &.drop {
+        .whitecloud,
+        .lightning {
+          animation: show .2s linear;
+        }
+
+        .cloud .no,
+        .cloud .name,
+        .cloud .bluecloud,
+        .rain {
+          display: none;
+        }
+
+        .crow {
+          animation: slideDown4 1s both;
+
+          img {
+            animation: rot .5s linear infinite;
+          }
+
+          .placeholder1 {
+            display: block;
+          }
+        }
+
+      }
+
+    }
+
+    .cloud {
+      position: relative;
+      z-index: 101;
+      width: 100%;
+      height: 9.011249999999999rem;
+      color: #e8e9e9;
+      text-align: center;
+
+      p {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+      }
+
+      .no {
+        top: 2.025rem;
+        font-size: 1.8225rem;
+      }
+
+      .name {
+        top: 4.05rem;
+        font-size: 2.53125rem;
+      }
+
+      .whitecloud {
+        opacity: 0;
+      }
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+    }
+
+    .lightning {
+      position: absolute;
+      z-index: 100;
+      left: 50%;
+      top: 8.1rem;
+      width: 3.3918750000000006rem;
+      margin-left: -1.6959375000000003rem;
+      height: 5.8725000000000005rem;
+      background: url(../plane/img/lightning.png) no-repeat center center/100% 100%;
+      opacity: 0;
+    }
+
+    .crow {
+      position: absolute;
+      z-index: 99;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+      img {
+        position: absolute;
+        bottom: -0.253125rem;
+        left: 50%;
+        width: 70%;
+        margin-left: -35%;
+      }
+
+      .placeholder1 {
+        display: none;
+      }
+
+      .c1 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.05s;
+      }
+
+      .c2 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.1s;
+      }
+
+      .c3 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.15s;
+      }
+
+      .c4 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.2s;
+      }
+
+      .c5 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.25s;
+      }
+
+      .c6 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.3s;
+      }
+
+      .c7 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.35s;
+      }
+
+      .c8 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.4s;
+      }
+
+      .c9 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.45s;
+      }
+
+      .c10 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.5s;
+      }
+
+      .c11 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.55s;
+      }
+
+      .c12 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.6s;
+      }
+
+      .c13 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.65s;
+      }
+
+      .c14 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.7s;
+      }
+
+      .c15 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.75s;
+      }
+
+      .c16 {
+        opacity: 0;
+        animation: show1 .8s infinite both;
+        animation-delay: 0.8s;
+      }
+    }
+
+    .rain {
+      position: absolute;
+      top: 5.0625rem;
+      border-radius: 50%;
+      background: #3678c4;
+      animation: slideDown2 0.5s cubic-bezier(0.54, 0.01, 1, 0.79) infinite;
+    }
+
+    .rain1 {
+      z-index: 100;
+      left: 40%;
+      width: 2.53125rem;
+      height: 2.53125rem;
+    }
+
+    .rain2 {
+      z-index: 98;
+      left: 60%;
+      width: 2.025rem;
+      height: 2.025rem;
+      animation-delay: .1s;
+    }
+
+    .rain3 {
+      z-index: 100;
+      left: 80%;
+      width: 1.51875rem;
+      height: 1.51875rem;
+      animation-delay: .2s;
+    }
+
+    .rain4 {
+      z-index: 98;
+      left: 20%;
+      width: 1.0125rem;
+      height: 1.0125rem;
+      animation-delay: .3s;
+    }
+  }
+}

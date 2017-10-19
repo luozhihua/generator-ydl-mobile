@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>35</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-7" transform="translate(-261.000000, -1066.000000)" stroke-width="2" stroke="#747474">
+            <g id="Group-5" transform="translate(262.500000, 1067.250000)">
+                <g id="clipboard">
+                    <path d="M22.0992187,3.68320312 L25.7824219,3.68320312 C27.8165988,3.68320312 29.465625,5.33222933 29.465625,7.36640625 L29.465625,33.1488281 C29.465625,35.183005 27.8165988,36.8320313 25.7824219,36.8320313 L3.68320312,36.8320313 C1.64902621,36.8320313 0,35.183005 0,33.1488281 L0,7.36640625 C0,5.33222933 1.64902621,3.68320312 3.68320312,3.68320312 L7.36640625,3.68320312" id="Shape"></path>
+                    <rect id="Rectangle-path" x="7.36640625" y="0" width="14.7328125" height="7.36640625" rx="2"></rect>
+                </g>
+                <g id="menu-(1)" transform="translate(6.000000, 16.000000)">
+                    <path d="M0,6 L18,6" id="Shape"></path>
+                    <path d="M0,0 L18,0" id="Shape"></path>
+                    <path d="M0,12 L18,12" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

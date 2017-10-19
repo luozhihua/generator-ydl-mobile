@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ICON" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-7" transform="translate(-361.000000, -770.000000)" stroke="#FFFFFF">
+            <g id="Group-20" transform="translate(362.000000, 771.121809)">
+                <g id="Group-19">
+                    <g id="calendar-(1)" stroke-width="1.78947368">
+                        <rect id="Rectangle-path" x="0" y="3.5978836" width="34" height="34.1798942" rx="3.8"></rect>
+                        <path d="M24.1578947,0 L24.1578947,6.83597884" id="Shape"></path>
+                        <path d="M9.84210526,0 L9.84210526,6.83597884" id="Shape"></path>
+                    </g>
+                    <polyline id="Shape" stroke-width="2" points="11.8 22.8569775 14.5323103 25.5555556 24.5507812 15.6607694"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

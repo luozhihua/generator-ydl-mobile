@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "config": ["./config"],
+      "decorators": ["src/decorators"],
+      "components": ["src/components"],
+      "directives": ["src/directives"],
+      "utils": ["src/utils"],
+      "mixins": ["src/mixins"],
+      "filters": ["src/filters"],
+      "views": ["src/views"],
+      "styles": ["src/styles"],
+      "store": ["src/store"]
+    },
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2015.promise",
+      "es2015.symbol"
+    ],
+    "allowJs": true,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "isolatedModules": false,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [],
+  "compileOnSave": false,
+  "skipLibCheck": true
+}

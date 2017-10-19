@@ -1,0 +1,115 @@
+@font-face{
+  font-family:roboto-medium;
+  src:url('../assets/fonts/Roboto-Medium.ttf');
+}
+@font-face{
+  font-family:roboto-regular;
+  src:url('../assets/fonts/Roboto-Regular.ttf');
+}
+@font-face{
+  font-family:roboto-thin;
+  src:url('../assets/fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('roboto-thin'), url(../assets/fonts/Roboto-Thin.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('roboto-thin'), url(../assets/fonts/Roboto-Thin.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('roboto-regular'), url(../assets/fonts/Roboto-Regular.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('roboto-medium'), url(../assets/fonts/Roboto-Medium.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('roboto-medium'),  url(../assets/fonts/Roboto-Medium.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+// global style define
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-100-vw {
+  width: 100vw;
+}
+
+
+// padding style define, number divide 100
+.pr-160 {
+  padding-right: 1.6rem;
+}
+.pr-300 {
+  padding-right: 3rem;
+}
+
+
+
+// font style define
+.text-center {
+  text-align: center;
+}
+
+//header tab switch
+.notifi-head{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  ul{
+    display: flex;
+    li{
+      flex:1;
+      color: #9b9b9b;
+      text-align: center;
+      line-height: 4rem;
+      background: #FFFFFF;
+      font-size: 1.5rem;
+      border-bottom: 1px solid #eee;
+      position:relative;
+      &.active{
+        color: @color-primary;
+        &:before {
+          content:'';
+          display:block;
+          height:2px;
+          width:50%;
+          position:absolute;
+          left:25%;bottom:-1px;
+          background: @color-primary;
+        }
+      }
+    }
+  }
+}
+
+.mt-0 {
+  margin-top: 0!important;
+}
