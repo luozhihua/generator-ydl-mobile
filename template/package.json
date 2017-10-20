@@ -5,6 +5,7 @@
   "author": "mail@luozhihua.com",
   "private": true,
   "scripts": {
+    "setup": "npm install && npm run dll",
     "start": "webpack-dev-server --inline --hot --env.dev --progress --open --config ./build/webpack.config.js",
     "dev": "webpack-dev-server --inline --hot --env.dev --progress --config ./build/webpack.config.js",
     "build": "rm -rf ./dist && npm run dll:build && webpack -p --hide-modules --config  ./build/webpack.config.js",

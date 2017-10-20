@@ -51,77 +51,19 @@ $ npm run dev
 |   └vue-extend.d.ts
 ├─test
 |  ├─mock
-|  |  ├─index.ts
-|  |  ├─tree
-|  |  |  ├─add.ts
-|  |  |  ├─edit.ts
-|  |  |  ├─item.ts
-|  |  |  ├─list.ts
-|  |  |  └move.ts
 ├─src
 |  ├─App.vue
-|  ├─config.js
 |  ├─index.html
 |  ├─index.js
 |  ├─routes.js
-|  ├─sfc.d.ts
 |  ├─views
-|  |   ├─home
-|  |   |  ├─index.vue
-|  |   |  └─style.less
-|  |   ├─errors
-|  |   |   └─404.vue
-|  |   ├─auth
-|  |   |  ├─login
-|  |   |  |   ├─index.vue
-|  |   |  |   ├─mobile.vue
-|  |   |  |   └─rsa.js
 |  ├─utils
-|  |   ├─ajax.js
-|  |   ├─backbutton.js
-|  |   ├─cookie.js
-|  |   ├─dd-config.js
-|  |   ├─local-storage.js
-|  |   ├─math.js
-|  |   ├─querystring.js
-|  |   ├─timeUtils.js
-|  |   ├─uri.js
-|  |   └─utils.js
 |  ├─styles
-|  |   ├─animations.less
-|  |   ├─base.less
-|  |   ├─common.less
-|  |   ├─icons.less
-|  |   ├─index.less
-|  |   ├─muse-ui-theme.less
-|  |   └─vars.less
 |  ├─store
-|  |   ├─index.js
-|  |   ├─modules
-|  |   |    ├─auth.js
-|  |   |    └─frame.js
-|  ├─router
-|  |   └index.js
 |  ├─mixin
-|  |   ├─ddapi.js
-|  |   └─index.js
 |  ├─directives
-|  |     ├─index.js
-|  |     └─validate.js
 |  ├─components
-|  |     ├─index.js
-|  |     └─frame
-|  |         ├─index.vue
-|  |         └style.less
 |  ├─assets
-|  |   ├─images
-|  |   |   └─logo.png
-|  |   ├─icons
-|  |   |   └─add.svg
-|  |   ├─fonts
-|  |   |   ├─Roboto-Medium.ttf
-|  |   |   ├─Roboto-Regular.ttf
-|  |   |   └─Roboto-Thin.ttf
 ├─config
 |   ├─dev.runtime.js
 |   └─prod.runtime.js

@@ -34,5 +34,32 @@ module.exports = {
   },
   "filters": {},
   "skipInterpolation": "src/**/*.*",
-  "completeMessage": "项目创建成功，快速开始:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n"
+  "completeMessage": "项目创建成功，快速开始:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n",
+  complete (data, {logger, chalk}) {
+    if (!data.inPlace) {
+      const fork = require('child_process').spawn
+
+      logger.log(chalk.green('项目创建成功!'))
+      logger.log(chalk.blue(`正在为您执行初始化脚本，可能需要${chalk.bold('3~6分钟')}才能完成。`))
+
+      let ls = fork('npm', ['run', 'setup'], {cwd: data.destDirName})
+      logger.log(chalk.blue('npm install && npm run dll'))
+
+      ls.stdout.on('data', (data) => {
+        console.log(`${data}`);
+      });
+
+      ls.stderr.on('data', (data) => {
+        console.log(`${data}`);
+      });
+
+      ls.on('close', (code) => {
+        if (code === 0) {
+          logger.log(chalk.green('项目初始化完成，请执行 `npm run dev` 开始 Coding 吧！'))
+        } else {
+          logger.log(chalk.red(`自动执行\`npm run setup\`失败，请输入以下命令重试:\n\n  cd ${data.destDirName}\n  npm run setup\n`))
+        }
+      });
+    }
+  }
 };
