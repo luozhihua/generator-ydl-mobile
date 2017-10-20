@@ -30,3 +30,105 @@ $ npm run dev
   - 使用 [html-minifier](https://github.com/kangax/html-minifier) 压缩 HTML 代码.
   - 使用 [cssnano](https://github.com/ben-eb/cssnano) 将所有组件中的 CSS 代码打包成一个文件.
   - 使用内容相关的 hash 自动重命名静态资源文件, 使得长效缓存成为可能.
+
+## 项目结构
+
+```
+{Project Root}
+├─.babelrc
+├─.editorconfig
+├─.eslintrc
+├─.gitignore
+├─.npmrc
+├─Makefile
+├─README.md
+├─package.json
+├─postcss.config.js
+├─tsconfig.json
+├─tslint.json
+├─types
+|   ├─module-types.d.ts
+|   └vue-extend.d.ts
+├─test
+|  ├─mock
+|  |  ├─index.ts
+|  |  ├─tree
+|  |  |  ├─add.ts
+|  |  |  ├─edit.ts
+|  |  |  ├─item.ts
+|  |  |  ├─list.ts
+|  |  |  └move.ts
+├─src
+|  ├─App.vue
+|  ├─config.js
+|  ├─index.html
+|  ├─index.js
+|  ├─routes.js
+|  ├─sfc.d.ts
+|  ├─views
+|  |   ├─home
+|  |   |  ├─index.vue
+|  |   |  └─style.less
+|  |   ├─errors
+|  |   |   └─404.vue
+|  |   ├─auth
+|  |   |  ├─login
+|  |   |  |   ├─index.vue
+|  |   |  |   ├─mobile.vue
+|  |   |  |   └─rsa.js
+|  ├─utils
+|  |   ├─ajax.js
+|  |   ├─backbutton.js
+|  |   ├─cookie.js
+|  |   ├─dd-config.js
+|  |   ├─local-storage.js
+|  |   ├─math.js
+|  |   ├─querystring.js
+|  |   ├─timeUtils.js
+|  |   ├─uri.js
+|  |   └─utils.js
+|  ├─styles
+|  |   ├─animations.less
+|  |   ├─base.less
+|  |   ├─common.less
+|  |   ├─icons.less
+|  |   ├─index.less
+|  |   ├─muse-ui-theme.less
+|  |   └─vars.less
+|  ├─store
+|  |   ├─index.js
+|  |   ├─modules
+|  |   |    ├─auth.js
+|  |   |    └─frame.js
+|  ├─router
+|  |   └index.js
+|  ├─mixin
+|  |   ├─ddapi.js
+|  |   └─index.js
+|  ├─directives
+|  |     ├─index.js
+|  |     └─validate.js
+|  ├─components
+|  |     ├─index.js
+|  |     └─frame
+|  |         ├─index.vue
+|  |         └style.less
+|  ├─assets
+|  |   ├─images
+|  |   |   └─logo.png
+|  |   ├─icons
+|  |   |   └─add.svg
+|  |   ├─fonts
+|  |   |   ├─Roboto-Medium.ttf
+|  |   |   ├─Roboto-Regular.ttf
+|  |   |   └─Roboto-Thin.ttf
+├─config
+|   ├─dev.runtime.js
+|   └─prod.runtime.js
+└─build
+    ├─route-generator.js
+    ├─vue-loader-config.js
+    ├─webpack.config.js
+    └─webpack.dll.js
+
+```
