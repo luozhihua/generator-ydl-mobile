@@ -33,7 +33,7 @@ $ npm run dev
 
 ## 项目结构
 
-```
+```html
 {Project Root}
 ├─.babelrc
 ├─.editorconfig
