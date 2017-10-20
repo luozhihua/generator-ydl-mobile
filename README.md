@@ -20,6 +20,10 @@ $ vue-init --clone http://git.yidouinc.com:8181:front-end/generator-mobile my-pr
 
 启动的开发服务器默认使用`8200`端口. 如果`8200`端口已被占用自动将使用另一个未被占用的端口.
 
+## UI 框架
+
+使用 muse-ui 框架，常用组件请参考：[muse-ui 组件](http://www.muse-ui.org/#/layout)
+
 ## 此样板包含哪些特性？
 
 - `npm run dev`: first-in-class development experience.
