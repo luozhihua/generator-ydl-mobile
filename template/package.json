@@ -1,8 +1,8 @@
 {
-  "name": "ydl-app",
-  "description": "赢单乐业务终端-APP",
+  "name": "{{ name }}",
+  "description": "{{ description }}",
   "version": "1.0.0",
-  "author": "mail@luozhihua.com",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "setup": "npm install && npm run dll",

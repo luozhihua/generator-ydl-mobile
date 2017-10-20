@@ -6,12 +6,16 @@
 
 这是一个基于 [vue-cli](https://github.com/vuejs/vue-cli)的生成器样板。**依赖 NodeJS v6.0 以上版本。**
 
-``` bash
+1. 安装 `vue-cli`（如果你没有安装过的话）
+
+```bash
 $ npm install -g vue-cli
+```
+
+2. 创建项目，如下命令会在当前目录下创建一个新目录`my-project`
+
+``` bash
 $ vue-init --clone http://git.yidouinc.com:8181:front-end/generator-mobile my-project
-$ cd my-project
-$ npm install
-$ npm run dev
 ```
 
 启动的开发服务器默认使用`8200`端口. 如果`8200`端口已被占用自动将使用另一个未被占用的端口.

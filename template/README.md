@@ -1,6 +1,6 @@
-# Joyshark Dashboard
+# {{ name }}
 
-> 乐鲨云管理后台
+> {{ description }}
 
 ## Environment
 
@@ -12,13 +12,13 @@
  - 进入项目文件夹, 安装依赖包:
 
 ``` bash
-npm install --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist
+npm install
 ```
 
 ## 开发
 
 ``` bash
-# 远行此命令，然后在浏览器打开：localhost:8010
+# 远行此命令，然后在浏览器打开：localhost:{{ port }}
 npm run dev
 ```
 
