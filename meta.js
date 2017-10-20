@@ -54,7 +54,9 @@ module.exports = {
 
       ls.on('close', (code) => {
         if (code === 0) {
-          logger.log(chalk.green(`项目初始化完成，请执行以下命令开始 Coding 吧！\n\n > cd ${data.destDirName} \n > npm run dev `))
+          logger.log(chalk.green('项目初始化完成，请执行以下命令开始 Coding 吧！'))
+          logger.log(chalk.blue(`cd ${data.destDirName}`))
+          logger.log(chalk.blue('npm run dev'))
         } else {
           logger.log(chalk.red(`项目初始化失败，请输入以下命令重试:\n\n  cd ${data.destDirName}\n  npm run setup\n`))
         }
