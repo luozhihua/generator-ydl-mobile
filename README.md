@@ -8,7 +8,7 @@
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue-init --clone http://git.yidouinc.com:8181:front-end/generator-mobile my-project
 $ cd my-project
 $ npm install
 $ npm run dev
