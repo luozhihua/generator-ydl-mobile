@@ -221,7 +221,7 @@ module.exports = (options = {}) => {
       }),
 
       new webpack.ProvidePlugin({
-        CONFIG: 'config/' + (options.dev ? 'dev.runtime.js' : 'prod.runtime.js')
+        CONFIG: 'config/' + (options.dev || 'prod') + '.runtime.js'
       }),
 
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
