@@ -3,4 +3,3 @@ node_modules
 docs/_book
 .idea
 *.sublime-*
-test/
